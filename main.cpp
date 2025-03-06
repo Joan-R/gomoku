@@ -46,7 +46,7 @@ namespace
 
     auto handle_about([[maybe_unused]] std::string &cmd) -> void
     {
-        constexpr std::string_view bot_name = "Gomoku";
+        constexpr std::string_view bot_name = "Bot Gomoku";
         std::cout << "name=\"" << bot_name << "\", version=\"0.42\", country=\"France\", author=\"Joan Ruiz\"" << std::endl;
     }
 
